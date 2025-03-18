@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F9F9F9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
+
+.title {
+    font-size: 1.5rem;
+
+}
+
+#Color-Picker {
+    padding: 5px;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+h2, p {
+    margin: 10px 0;
+}
